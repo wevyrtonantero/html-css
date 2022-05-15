@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+
+/*
+#  =  Id
+.  =  Class
+:  =  pseudo-class
+:: =  Pseudo-element
+>  =  children
+
+
+
+
+*/
+            body{
+                    background-color: aqua;
+                    font-family: Arial, Helvetica, sans-serif;
+            }
+            a{
+                color: rgb(23, 31, 15) ;
+            text-decoration: none; 
+            font-weight: bold;
+            }
+            a:visited{
+                color: red;
+
+            }
+            a:hover{
+                text-decoration: underline;
+                color: black;
+            }
+            a:active{
+                color: blue;
+            }
+            a::after{
+                content:' ★';
+                color: black;
+            }
+            a::before{
+                content: '★ ';
+                color: blue;
+            }
+            .teste{
+                background-color: black;
+                color: aliceblue;
+            
+            }
+            .teste::after{
+                color: blue;
+            }
+
+
+    </style>
+</head>
+<body>
+    <h1>Formatando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank">Repositorio GuitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.linkedin.com/in/wevyrton-antero-braz-santos-martins-0aa9b74b/" target="_blank" class="teste">Linkedin</a></li>
+        <li><a href="https://www.safisa.com.br" target="_blank">Safisa</a></li>
+
+    </ul>
+    
+</body>
+</html>

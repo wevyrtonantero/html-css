@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+body{background-color: gray;}        
+        
+div{background-color: lightgrey;
+text-align: center;
+height: 200px;
+width: 200px;
+border: 3px solid rgb(0, 0, 0);
+}
+div:hover{background-color: rgb(0, 0, 0);}
+#d1>p{display: none;}
+#d2>p{display: none;}
+#d3>p{display: none;}
+#d1:hover>p{display: block;color: white;font-size: 3em;}
+#d2:hover>p{display: block;color: white;font-size: 3em;}
+#d3:hover>p{display: block;color: white;font-size: 3em;}
+
+    </style>
+</head>
+<body>
+    <h1>Escondendo Texto</h1>
+    
+    <div id="d1">
+        01
+    <p>Voce Errou</p>
+    </div> <P></P>
+    
+    <div id="d2">
+        02 
+        <p>Voce Errou</p>
+    </div><p></p>
+
+
+<div id="d3">
+    03
+    <p>Acertou Mizeravi</p>
+</div>
+
+</body>
+</html>
