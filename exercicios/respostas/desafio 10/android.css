@@ -68,7 +68,7 @@ h1{
 }
 section>nav>a:hover{
     background-color: #7afdb5;
-   color: #10f778;
+   color: #0d0e0d;
   
 
 }
@@ -97,7 +97,7 @@ h2{
      
 }
 h3{
-    background-color: white;
+    background-color: rgb(247, 11, 11);
     font-family: outra;
     font-size: 1.8em;
     color: #1d5e3b;
